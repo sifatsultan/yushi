@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="students.xslt"?>
+<students>
+	<student available="no">
+		<name>Mocha</name>
+		<gender>Coffee</gender>
+		<email>mocha@gmail.com</email>
+	</student>
+
+	<student available="no">
+		<name>Mocha</name>
+		<gender>Coffee</gender>
+		<email>mocha@gmail.com</email>
+	</student>
+
+	<student available="no">
+		<name>Mocha</name>
+		<gender>Coffee</gender>
+		<email>mocha@gmail.com</email>
+	</student>
+
+	<student available="no">
+		<name>Mocha</name>
+		<gender>Coffee</gender>
+		<email>mocha@gmail.com</email>
+	</student>
+</students>

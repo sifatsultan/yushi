@@ -1,0 +1,43 @@
+h2 {
+	color:red;
+	font-family:arial;
+
+}
+h3 {
+	color:red;
+	
+}
+
+h4 {
+	
+	color:red
+	
+}
+
+body {
+	
+	font-family:arial;
+	line-height:1.5;
+}
+
+img{
+	margin-right: 50px;
+}
+
+
+.container{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.row{
+	display: block;
+	width: 100%;
+	clear:both;
+}
+
+.col{
+	display: block;
+	width: 33%;
+	float: left;
+}

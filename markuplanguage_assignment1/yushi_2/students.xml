@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<?xml-stylesheet type="text/xsl" href="students.xslt"?>
+<students>
+	<student>
+			<image>img/student1.jpg</image>
+			<studentid>5252</studentid>
+			<title>Miss</title>
+			<surname>Armstong</surname>
+			<preferred_name>Jen</preferred_name>
+			<given_name>Jennifer</given_name>
+			<gender>F</gender>
+			<dateofbirth>6/8/1990</dateofbirth>
+			
+		<!--contact-->
+			<!--email>james@ecu.com.au</email-->
+			<!--Phone Type="Home">98789858</Phone-->
+			<!--Phone Type="work">0458974895</Phone-->
+			<!--Phone Type="Mobile">0458974895</Phone-->
+			<!--Phone Type="Fax">(545)2556</Phone-->
+			
+		<!--/contact-->
+		
+		
+		
+			<street1>5 Burns Beach Rd</street1>
+			<suburb1>Burns Beach</suburb1>
+			<postcode1>6029</postcode1>
+
+			<street2>Jindalee Round Rd</street2>
+			<suburb2>Burns Beach</suburb2>
+			<postcode2>6023</postcode2>
+		
+		
+
+	</student>
+	
+	<student>
+			<image>img/student2.jpg</image>
+			<studentid>1234</studentid>
+			<title>Mr</title>
+			<surname>Stevens</surname>
+			<preferred_name>John</preferred_name>
+			<given_name>John</given_name>
+			<gender>M</gender>
+			<dateofbirth>6/8/1993</dateofbirth>
+
+		<!--contact-->
+			<!--email>John@uwa.com.au</email-->
+			<!--Phone Type="Home">98789858</Phone-->
+			<!--Phone Type="work">0458974895</Phone-->
+			<!--Phone Type="Mobile">0458974895</Phone-->
+			<!--Phone Type="Fax">(545)2556</Phone-->
+		<!--/contact-->
+		
+		
+			
+			<street1>18 Burns Beach Rd</street1>
+			<suburb1>Burns Beach</suburb1>
+			<postcode1>6029</postcode1>
+			
+			<street2>18 Burns Beach Rd</street2>
+			<suburb2>Burns Beach</suburb2>
+			<postcode2>6029</postcode2>
+			
+		
+	
+	</student>
+	
+	<student>
+			<image>img/student3.jpg</image>
+			<studentid>5252</studentid>
+			<title>Mr</title>
+			<surname>AJ</surname>
+			<preferred_name>AJ</preferred_name>
+			<given_name>James</given_name>
+			<gender>M</gender>
+			<dateofbirth>6/9/1991</dateofbirth>
+
+		<!--contact-->
+			<!--email>james@uwa.com.au</email-->
+			<!--Phone Type="Home">98789858</Phone-->
+			<!--Phone Type="work">0458974895</Phone-->
+			<!--Phone Type="Mobile">0458974895</Phone-->
+			<!--Phone Type="Fax">(545)2556</Phone-->
+			
+		<!--/contact-->
+		
+		
+			
+			<street1>9 Lane Loop</street1>
+			<suburb1>Joondalup</suburb1>
+			<postcode1>6027</postcode1>
+			
+			<street2>8 Christ Church Rd</street2>
+			<suburb2>Currambine</suburb2>
+			<postcode2>2568</postcode2>
+	
+	</student>
+	
+</students>
+	
+	

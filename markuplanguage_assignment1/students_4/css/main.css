@@ -1,0 +1,19 @@
+.container-student{
+    margin-top: 50px;
+}
+
+.container-address{
+    margin-top: 20px;
+}
+
+.ul-nospace li{
+    margin: 0;
+    padding: 0;
+}
+
+section#banner{
+    margin-top: 70px;
+}
+li{
+    list-style: none;
+}
