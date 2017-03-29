@@ -164,15 +164,26 @@
 								</div>
 								<!-- End Correspondence Address -->
 							</xsl:for-each>
-
 						</div>
 						<!-- End Address Detail Container -->
 
+						<!-- Row Student Enrollment Details -->
+						<div class="row row-studentEnrollmentDetails">
+							<b>Number of Courses Enrolled: </b> <xsl:value-of select="count(courses/course)" />
+						</div>
+						<!-- End Row Student Enrollment Details -->
 
 					</div>
 					<!-- End Student Container -->
 				</xsl:for-each>
-				<xsl:value-of select="students/student[1]/personaldetails/name[@type='surname']"/>
+
+				<div class="container container-footer">
+					<div class="row">
+						<b>Total Number of Student Records: </b>
+						<xsl:value-of select="count(students/student)" />
+					</div>
+				</div>
+
 			</body>
 		</html>
 	</xsl:template>

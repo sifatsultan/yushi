@@ -30,7 +30,7 @@
 							</div>
 							<!-- End Personal Details Column Photo -->
 							<!-- Personal Details Column General Details -->
-							<div class="six columns">
+							<div class="four columns">
 								<ul class="ul-nospace">
 									<li>
 										<b>Student ID: </b>
@@ -69,7 +69,7 @@
 							<!-- End Personal Details Column General Details -->
 
 							<!-- Personal Details Column Course Enrolled -->
-							<div class="three columns">
+							<div class="five columns">
 								<table>
 									<thead>
 										<tr>
@@ -84,13 +84,15 @@
 												<!-- Course Code td -->
 												<td>
 													<i>
-														<xsl:value-of select="text()" />
+														<a href="{link}" target="_blank">
+															<xsl:value-of select="code" />
+														</a>
 													</i>
 												</td><!-- End Course Code td -->
 
 												<!-- Course Status td -->
 												<td>
-													<xsl:value-of select="@status" />
+													<xsl:value-of select="status" />
 												</td><!-- End Course Status td -->
 
 												<!-- Course Status td -->
@@ -164,15 +166,27 @@
 								</div>
 								<!-- End Correspondence Address -->
 							</xsl:for-each>
-
 						</div>
 						<!-- End Address Detail Container -->
 
+						<!-- Row Student Enrollment Details -->
+						<div class="row row-studentEnrollmentDetails">
+							<b>Number of Courses Enrolled: </b>
+							<xsl:value-of select="count(courses/course)" />
+						</div>
+						<!-- End Row Student Enrollment Details -->
 
 					</div>
 					<!-- End Student Container -->
 				</xsl:for-each>
-				<xsl:value-of select="students/student[1]/personaldetails/name[@type='surname']"/>
+
+				<div class="container container-footer">
+					<div class="row">
+						<b>Total Number of Student Records: </b>
+						<xsl:value-of select="count(students/student)" />
+					</div>
+				</div>
+
 			</body>
 		</html>
 	</xsl:template>
