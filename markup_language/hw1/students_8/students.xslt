@@ -31,40 +31,30 @@
 							<!-- End Personal Details Column Photo -->
 							<!-- Personal Details Column General Details -->
 							<div class="four columns">
-								<ul class="ul-nospace">
-									<li>
-										<b>Student ID: </b>
-										<xsl:value-of select="personaldetails/id" />
-									</li>
-									<li>
-										<b>Title :</b>
-										<xsl:value-of select="personaldetails/title" />
-									</li>
-									<li>
-										<b>Surname: </b>
-										<xsl:value-of select="personaldetails/name[@type='surname']" />
-									</li>
-									<li>
-										<b>Preferred Given Name: </b>
-										<xsl:value-of select="personaldetails/name[@type='preferred_given']" />
-									</li>
-									<li>
-										<b>Given Name: </b>
-										<xsl:value-of select="personaldetails/name[@type='surname']" />
-									</li>
-									<li>
-										<b>Gender: </b>
-										<xsl:value-of select="personaldetails/gender" />
-									</li>
-									<li>
-										<b>Date of Birth: </b>
-										<xsl:value-of select="personaldetails/dob" />
-									</li>
-									<li>
-										<b>Email: </b>
-										<xsl:value-of select="personaldetails/email" />
-									</li>
-								</ul>
+								<b>Student ID: </b>
+								<xsl:value-of select="personaldetails/id" />
+								<br />
+								<b>Title :</b>
+								<xsl:value-of select="personaldetails/title" />
+								<br />
+								<b>Surname: </b>
+								<xsl:value-of select="personaldetails/name[@type='surname']" />
+								<br />
+								<b>Preferred Given Name: </b>
+								<xsl:value-of select="personaldetails/name[@type='preferred_given']" />
+								<br />
+								<b>Given Name: </b>
+								<xsl:value-of select="personaldetails/name[@type='surname']" />
+								<br />
+								<b>Gender: </b>
+								<xsl:value-of select="personaldetails/gender" />
+								<br />
+								<b>Date of Birth: </b>
+								<xsl:value-of select="personaldetails/dob" />
+								<br />
+								<b>Email: </b>
+								<xsl:value-of select="personaldetails/email" />
+
 							</div>
 							<!-- End Personal Details Column General Details -->
 
