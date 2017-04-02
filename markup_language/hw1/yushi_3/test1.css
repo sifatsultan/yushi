@@ -1,0 +1,75 @@
+#container {
+	height: relative;
+	width: 1200px;
+	border-style: solid;
+	border: 1;
+	padding: 5px;
+	margin-left: 15%;
+}
+
+body {
+	font-family: arial;
+	line-height: 1.5;
+	align: center;
+}
+
+img {
+	position: relative;
+	float: left;
+	text-indent: 10px;
+}
+
+.addresstable {
+	margin: 0px auto;
+	position: relative;
+	top: 5px;
+	margin-right: 40%;
+}
+
+.columns1 {
+	margin-left: 210px;
+}
+
+.columns2 {
+	float: right;
+	position: relative;
+	right: 200px;
+	bottom: 230px;
+	margin-left: 20%;
+}
+
+.table1 {
+	margin-top: 500px;
+}
+
+.columns3 {
+	float: right;
+	position: relative;
+	right: 200px;
+	bottom: 330px;
+}
+
+.columns4 {
+	float: right;
+	position: relative;
+	right: -10px;
+	bottom: 100px;
+}
+
+/* Typography */
+.unit_code {
+	padding-right: 15px;
+}
+
+h2 {
+	color: red;
+	font-family: arial;
+}
+
+h3 {
+	color: red;
+}
+
+h4 {
+	color: red
+}
