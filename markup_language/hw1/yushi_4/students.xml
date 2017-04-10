@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<?xml-stylesheet type="text/xsl" href="test1.xslt"?>
+
+<!DOCTYPE students SYSTEM "StudentDetails.dtd">
+
+<students>
+	<student>
+		<image>students/student1.jpg</image>
+		<title>Miss</title>
+		<studentid>52882</studentid>
+		<surname>Smith</surname>
+		<preferred_name>Jen</preferred_name>
+		<given_name>Jen</given_name>
+		<gender>F</gender>
+		<dateofbirth>6/8/1990</dateofbirth>
+		<email>Jen@ecu.com.au</email>
+
+		<notes>
+			<note>Extreme good student</note>
+			<note>Good student</note>
+		</notes>
+
+
+		<course_attempts>
+			<course>
+				<status>ENROLLED</status>
+				<unit_code>U67</unit_code>
+				<courseURL>http://www.ecu.edu.au/handbook/course?id=U67&amp;year=2017</courseURL>
+			</course>
+
+			<course>
+				<status>COMPLETED</status>
+				<unit_code>G95</unit_code>
+				<courseURL>http://www.ecu.edu.au/handbook/course?id=G95&amp;year=2017</courseURL>
+			</course>
+		</course_attempts>
+
+
+		<home_address>
+			<start_date>29/9/2007</start_date>
+			<street>5 Burns Beach Rd</street>
+			<suburb>Burns Beach</suburb>
+			<postcode>6029</postcode>
+
+			<contact>
+				<home>98789858</home>
+				<work>0458974895</work>
+				<mobile>0458974895</mobile>
+				<fax>(545)2556</fax>
+			</contact>
+
+		</home_address>
+
+
+		<co_address>
+			<start_date>29/9/2007</start_date>
+			<street>5 Burns Beach Rd</street>
+			<suburb>Burns Beach</suburb>
+			<postcode>6029</postcode>
+
+			<contact>
+				<home>98789858</home>
+				<work>04588295</work>
+				<mobile>045894545</mobile>
+				<fax>(545)2456</fax>
+			</contact>
+		</co_address>
+
+	</student>
+
+
+	<student>
+		<image>students/student2.jpg</image>
+		<title>Mr</title>
+		<studentid>5252</studentid>
+		<surname>Armstrong</surname>
+		<preferred_name>John</preferred_name>
+		<given_name>John</given_name>
+		<gender>M</gender>
+		<dateofbirth>6/8/1993</dateofbirth>
+		<email>John@ecu.com.au</email>
+
+		<notes>
+			<note>Extreme good student</note>
+			<note>Good student</note>
+		</notes>
+
+		<course_attempts>
+			<course>
+				<status>ENROLLED</status>
+				<unit_code>U67</unit_code>
+				<courseURL>http://www.ecu.edu.au/handbook/course?id=U67&amp;year=2017</courseURL>
+			</course>
+
+			<course>
+				<status>DISCONTIN</status>
+				<unit_code>Y78</unit_code>
+				<courseURL>http://www.ecu.edu.au/handbook/course?id=Y78&amp;year=2017</courseURL>
+			</course>
+		</course_attempts>
+
+		<home_address>
+			<start_date>29/9/2007</start_date>
+			<street>5 Joondalup Rd</street>
+			<suburb>Joondalup</suburb>
+			<postcode>6029</postcode>
+
+
+			<contact>
+				<home>987676</home>
+				<work>045867695</work>
+				<mobile>0458974895</mobile>
+				<fax>(5467)67656</fax>
+			</contact>
+
+		</home_address>
+
+
+		<co_address>
+			<start_date>29/9/2007</start_date>
+			<street>5 GreenWood Rd</street>
+			<suburb>Greenwood</suburb>
+			<postcode>6029</postcode>
+
+			<contact>
+				<home>95359858</home>
+				<work>04588295</work>
+				<mobile>045894545</mobile>
+				<fax>(545)2456</fax>
+			</contact>
+		</co_address>
+
+	</student>
+
+	<student>
+		<image>students/student8.jpg</image>
+		<title>Mr</title>
+		<studentid>5252</studentid>
+		<surname>Broome</surname>
+		<preferred_name>Chris</preferred_name>
+		<given_name>Christopher</given_name>
+		<gender>M</gender>
+		<dateofbirth>6/8/1974</dateofbirth>
+		<email>Chris@ecu.com.au</email>
+
+
+		<notes>
+			<note>Good student</note>
+		</notes>
+
+		<course_attempts>
+			<course>
+				<status>ENROLLED</status>
+				<unit_code>Y41</unit_code>
+				<courseURL>http://www.ecu.edu.au/handbook/course?id=Y41&amp;year=2017</courseURL>
+			</course>
+
+			<course>
+				<status>DISCONTIN</status>
+				<unit_code>Y78</unit_code>
+				<courseURL>http://www.ecu.edu.au/handbook/course?id=Y78&amp;year=2017</courseURL>
+			</course>
+		</course_attempts>
+
+
+		<home_address>
+			<start_date>29/9/2007</start_date>
+			<street>5 Mollo Rd</street>
+			<suburb>Joondalup</suburb>
+			<postcode>6029</postcode>
+
+
+			<contact>
+				<home>98789858</home>
+				<work>0458974895</work>
+				<mobile>0458974895</mobile>
+				<fax>(545)2556</fax>
+			</contact>
+
+		</home_address>
+
+
+		<co_address>
+			<start_date>29/9/2007</start_date>
+			<street>5 Burns Beach Rd</street>
+			<suburb>Burns Beach</suburb>
+			<postcode>6029</postcode>
+
+			<contact>
+				<home>98789858</home>
+				<work>04588295</work>
+				<mobile>045894545</mobile>
+				<fax>(545)2456</fax>
+			</contact>
+		</co_address>
+	</student>
+
+	<student>
+		<image>students/student3.jpg</image>
+		<title>Mr</title>
+		<studentid>452</studentid>ghhb
+		<surname>Stevens</surname>
+		<preferred_name>John</preferred_name>
+		<given_name>John</given_name>
+		<gender>M</gender>
+		<dateofbirth>6/8/1993</dateofbirth>
+		<email>John@ecu.com.au</email>
+
+		<notes>
+			<note>Good student</note>
+		</notes>
+
+		<course_attempts>
+			<course>
+				<status>ENROLLED</status>
+				<unit_code>Y41</unit_code>
+				<courseURL>http://www.ecu.edu.au/handbook/course?id=Y41&amp;year=2017</courseURL>
+			</course>
+
+			<course>
+				<status>DISCONTIN</status>
+				<unit_code>Y78</unit_code>
+				<courseURL>http://www.ecu.edu.au/handbook/course?id=Y78&amp;year=2017</courseURL>
+			</course>
+
+			<course>
+				<status>COMPLETED</status>
+				<unit_code>K99</unit_code>
+				<courseURL>http://www.ecu.edu.au/handbook/course?id=K99&amp;year=2017</courseURL>
+			</course>
+		</course_attempts>
+
+
+		<home_address>
+			<start_date>29/9/2007</start_date>
+			<street>5 Perth Rd</street>
+			<suburb>Perth</suburb>
+			<postcode>6029</postcode>
+
+
+			<contact>
+				<home>98789858</home>
+				<work>0458974895</work>
+				<mobile>0458974895</mobile>
+				<fax>(545)2556</fax>
+			</contact>
+
+		</home_address>
+
+
+		<co_address>
+			<start_date>29/9/2007</start_date>
+			<street>5 Mount Lawley Rd</street>
+			<suburb>Mount Lawley</suburb>
+			<postcode>6029</postcode>
+
+			<contact>
+				<home>67556656</home>
+				<work>56564567</work>
+				<mobile>06767545</mobile>
+				<fax>(56767)456</fax>
+			</contact>
+		</co_address>
+
+	</student>
+
+
+</students>
